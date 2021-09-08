@@ -65,10 +65,10 @@ export default function ListContainer() {
             <Container maxWidth='md' className={classes.root}>
                 <Grid container spacing={5}>
                     <Grid xs={6} item>
-                        <Button variant="outlined">Scheduled</Button>
+                        <Button variant="outlined">Un-Scheduled</Button>
                     </Grid>
                     <Grid xs={6} item>
-                        <Button variant="outlined">Un-Scheduled</Button>
+                        <Button variant="outlined">Scheduled</Button>
                     </Grid>
                 </Grid >
             </Container >
